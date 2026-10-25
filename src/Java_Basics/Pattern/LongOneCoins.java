@@ -1,6 +1,6 @@
 package Java_Basics.Pattern;
 
-public class LongOnseCons {
+public class LongOneCoins {
     public static void main(String[] args) {
         System.out.println("LONGEST SUM IS : " + longestOnes(new int[]{1, 0, 1, 0, 1, 1}));
     }

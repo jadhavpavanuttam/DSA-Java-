@@ -1,6 +1,4 @@
-package JavaDsa;
-
-import org.jetbrains.annotations.NotNull;
+package arraySeries;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -63,7 +61,7 @@ public class QuickSort {
         return i + 1;
     }
 
-    private static void swap(int @NotNull [] arr, int i, int j) {
+    private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

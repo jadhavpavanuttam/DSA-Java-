@@ -1,4 +1,4 @@
-package JavaInnerClass.com;
+package basicConcepts;
 
 
 //Member Inner Class Example
@@ -28,7 +28,7 @@ public class Car {
         this.isModel = false;
     }
 
-    class Engine{
+    class Engine {
         void start() {
             if (isModel) {
                 isModel = true;
@@ -37,10 +37,9 @@ public class Car {
                 System.out.println("Model Engine is already started...");
             }
         }
-        void stop()
-        {
-            if (!isModel)
-            {
+
+        void stop() {
+            if (!isModel) {
 
             }
         }

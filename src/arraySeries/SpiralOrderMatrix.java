@@ -1,3 +1,5 @@
+package arraySeries;
+
 import java.util.Scanner;
 
 public class SpiralOrderMatrix {
@@ -57,7 +59,7 @@ printMatrix(matrix);
         }
 
     }
-    private static void printMatrix(@org.jetbrains.annotations.NotNull int matrix[][])
+    private static void printMatrix( int matrix[][])
     {
         for(int i=0;i< matrix.length;i++)
         {

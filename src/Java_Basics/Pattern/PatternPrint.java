@@ -1,4 +1,4 @@
-package Java_Basics.PatternPrinting;
+package Java_Basics.Pattern;
 
 public class PatternPrint {
     public static void main(String[] args) {

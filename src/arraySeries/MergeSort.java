@@ -1,4 +1,4 @@
-package JavaDsa;
+package arraySeries;
 
 import java.util.HashSet;
 

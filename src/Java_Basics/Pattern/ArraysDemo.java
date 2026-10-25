@@ -3,7 +3,7 @@ package Java_Basics.Pattern;
 import javax.swing.*;
 import java.util.Scanner;
 
-public class Arrays {
+public class ArraysDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of an array :");
@@ -15,7 +15,7 @@ public class Arrays {
         for (i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        while (j != arr.length-1) {
+        while (j != arr.length - 1) {
             sum += arr[j];
             j++;
         }

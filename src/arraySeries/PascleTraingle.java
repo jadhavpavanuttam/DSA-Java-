@@ -1,3 +1,5 @@
+package arraySeries;
+
 import java.util.Scanner;
 
 public class PascleTraingle {

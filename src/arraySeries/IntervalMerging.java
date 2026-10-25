@@ -1,6 +1,5 @@
-package Java.Dsa.Learn.Java.Interview.Quetions.TreeExmpl.dsaSeries;
+package arraySeries;
 
-import javax.xml.transform.SourceLocator;
 import java.util.*;
 
 public class IntervalMerging {

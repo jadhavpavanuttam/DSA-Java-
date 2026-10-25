@@ -1,4 +1,5 @@
-import java.util.Iterator;
+package arraySeries;
+
 import java.util.Scanner;
 
 public class Rotate90DegreeClockwise {

@@ -1,4 +1,4 @@
-package Java.Dsa.Learn.Java.Interview.Quetions.TreeExmpl;
+package arraySeries;
 
 public class TreePrePostIn {
     public static void main(String[] args) {

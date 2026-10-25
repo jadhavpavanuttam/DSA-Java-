@@ -1,4 +1,4 @@
-package JavaInnerClass.com;
+package basicConcepts;
 
 public class JavaDataTypes {
     public static void main(String[] args) {

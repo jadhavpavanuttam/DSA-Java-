@@ -1,4 +1,4 @@
-package Java_Basics.PatternPrinting;
+package Java_Basics.Pattern;
 
 public class Basics {
 
@@ -26,7 +26,7 @@ public class Basics {
 //                Thread.sleep(1000);
 //                System.out.println(num);
 //
-////            num=new Scanner(System.in).nextInt();
+//            num=new Scanner(System.in).nextInt();
 //                sum+=num;
 //                 num++;
 //            }

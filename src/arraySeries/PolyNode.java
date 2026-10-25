@@ -1,4 +1,4 @@
-package JavaDsa;
+package arraySeries;
 
 class PolyNode {
         int coeff, exp;

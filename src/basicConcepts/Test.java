@@ -1,4 +1,4 @@
-package JavaInnerClass.com;
+package basicConcepts;
 
 public class Test {
     public static void main(String[] args) {

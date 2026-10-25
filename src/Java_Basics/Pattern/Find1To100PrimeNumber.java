@@ -1,4 +1,4 @@
-package numberSeries;
+package Java_Basics.Pattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +33,7 @@ public class Find1To100PrimeNumber {
             list1.add(x);
         }
         System.out.println(list1);
-//        System.out.println("");
+
     }
 }
 

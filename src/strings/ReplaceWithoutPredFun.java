@@ -1,4 +1,4 @@
-package JavaDsaScaler;
+package strings;
 
 public class ReplaceWithoutPredFun {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java_Basics.PatternPrinting;
+package Java_Basics.Pattern;
 
 import java.util.Scanner;
 
@@ -10,7 +10,6 @@ public class CountDigit {
         int numberOfDigit=0;
         while(n>0)
         {
-
             n=n/10;
             numberOfDigit++;
         }

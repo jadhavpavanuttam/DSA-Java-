@@ -1,7 +1,10 @@
-package JavaDsa;
+package arraySeries;
+
+import java.util.Scanner;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
+
         LinkedList l1 = new LinkedList();
         l1.add(32);
         l1.add(41);
@@ -19,8 +22,47 @@ public class LinkedListDemo {
         l1.addMiddle(23, 120);
         System.out.println("After Positional Argument  :");
         l1.printValues();
+//        while (true) {
+//            System.out.println("Enter number for your choice.");
+//            Scanner scanner = new Scanner(System.in);
+//            int i = scanner.nextInt();
+//            switch (i) {
+//                case 1: {
+//                    System.out.println("Enter a Number :  ");
+//                    l1.add(scanner.nextInt());
+//                    break;
+//                }
+//                case 2: {
+//                    System.out.println("Enter a Number :  ");
+//                    l1.add(scanner.nextInt());
+//                    break;
+//                }
+//                case 3: {
+//                    System.out.println("Enter a Number :  ");
+//                    l1.add(scanner.nextInt());
+//                    break;
+//                }
+//                case 4: {
+//                    System.out.println("Enter a Number :  ");
+//                    l1.add(scanner.nextInt());
+//                    break;
+//                }
+//                case 5: {
+//                    System.out.println("You are exit now..!!");
+//                    try {
+//                        Thread.sleep(2000L, (int) System.currentTimeMillis());
+//                    } catch (Exception e) {
+//                        System.out.println("Thread Is Interrupted  !! ");
+//                    }
+//                    Thread.currentThread().interrupt();
+//                }
+//                System.exit(0);
+//            }
     }
+
 }
+
+
 
 class LinkedList {
     Node head = null;
@@ -57,7 +99,7 @@ class LinkedList {
         }
     }
 
-    public void insetMiddle() {
+    public void removeLast(int data) {
 
     }
 

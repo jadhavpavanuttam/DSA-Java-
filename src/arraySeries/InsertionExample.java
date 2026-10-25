@@ -1,7 +1,5 @@
-package JavaDsa;
+package arraySeries;
 
-
-import org.jetbrains.annotations.Contract;
 
 public class InsertionExample {
     public static void main(String[] args) {
@@ -9,7 +7,6 @@ public class InsertionExample {
             System.out.print(" " + x);
     }
 
-    @Contract(value = "_ -> param1", pure = true)
     private static int[] insertionSort(int arr[]) {
 
         for (int i = 1; i < arr.length; i++) {
@@ -20,8 +17,8 @@ public class InsertionExample {
                 j--;                    // j=j-1
             }
             arr[j + 1] = key;
-            for (int x:arr)
-                System.out.print(x+" ");
+            for (int x : arr)
+                System.out.print(x + " ");
             System.out.println();
         }
         System.out.println("______________________");

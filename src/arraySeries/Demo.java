@@ -1,4 +1,4 @@
-package JavaDsa;
+package arraySeries;
 
 public class Demo {
     public static void main(String[] args) {

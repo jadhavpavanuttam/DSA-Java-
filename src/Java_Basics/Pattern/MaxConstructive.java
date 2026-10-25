@@ -1,8 +1,8 @@
 package Java_Basics.Pattern;
 
-public class MaxConsiticutive {
+public class MaxConstructive {
     public static void main(String[] args) {
-        System.out.println("MAXIMUM CONSICUTIVE SEQUENCE IS : " + findConsecutiveOne(new int[]{1, 1, 0, 1, 1, 1}));
+        System.out.println("MAXIMUM CONSECUTIVE SEQUENCE IS : " + findConsecutiveOne(new int[]{1, 1, 0, 1, 1, 1}));
     }
 
     private static int findConsecutiveOne(int[] nums) {
@@ -19,6 +19,8 @@ public class MaxConsiticutive {
     }
 }
 /**
+ * to find lemgth of subArray  --> RIGHT-LEFT+1
+ *
  * Time complexity : O(n)
  * <p>
  * sliding window()

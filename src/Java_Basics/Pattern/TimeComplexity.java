@@ -1,4 +1,4 @@
-package Java_Basics.PatternPrinting;
+package Java_Basics.Pattern;
 
 //find the member of number 'x' in given array
 public class TimeComplexity {

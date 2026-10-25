@@ -1,8 +1,5 @@
-package JavaInnerClass.com;
+package basicConcepts;
 
-import java.net.http.HttpResponse;
-
-//Local Inner Class Example
 public class Hotel {
     String name;
     int totelRoom;

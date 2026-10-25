@@ -1,4 +1,4 @@
-package JavaInnerClass.com;
+package basicConcepts;
 
 import java.io.*;
 

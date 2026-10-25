@@ -1,18 +1,17 @@
-package Java_Basics.PatternPrinting;
+package Java_Basics.Pattern;
 
 import java.util.Scanner;
 
 public class ReverseOfNumbers {
     public static void main(String[] args) {
-        int rev=0;
+        int rev = 0;
         System.out.println("Enter A  Number :");
-        int n=new Scanner(System.in).nextInt();
-      while (n>0)
-      {
-          rev=rev*10+n%10;
-          n/=10;
-      }
-        System.out.println("Reverse Number is :"+rev);
+        int n = new Scanner(System.in).nextInt();
+        while (n > 0) {
+            rev = rev * 10 + n % 10;
+            n /= 10;
+        }
+        System.out.println("Reverse Number is :" + rev);
     }
 }
 /*
