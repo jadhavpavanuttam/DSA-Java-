@@ -1,7 +1,7 @@
 package basicConcepts;
 
 public class MultiThread {
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) throws Exception {
         Counter counter = new Counter();
         MyThread my = new MyThread(counter);
         MyThread my1 = new MyThread(counter);
@@ -26,10 +26,12 @@ class Counter {
     void increment() {
         count++;
     }
+
     int getCount() {
         return count;
     }
 }
+
 class MyThread extends Thread {
     Counter counter;
 
@@ -38,8 +40,8 @@ class MyThread extends Thread {
     }
 
     public synchronized void run() {
-        for (int i = 0; i <100; i++) {
-            System.out.println(" "+i);
+        for (int i = 0; i < 100; i++) {
+            System.out.println(" " + i);
             counter.increment();
         }
     }

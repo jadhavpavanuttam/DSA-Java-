@@ -8,17 +8,15 @@ public class FileHandling {
         try {
 
 //            Write Data on file
-            FileOutputStream fos=new FileOutputStream("Pavan.txt");
-            String p="My Name Is Pavan ";
+            FileOutputStream fos = new FileOutputStream("Pavan.txt");
+            String p = "My Name Is Pavan ";
             fos.write(p.getBytes());
             fos.close();
             fos.write(p.getBytes());
             fos.close();
-        }
-        catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 //        System.out.println();

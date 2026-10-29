@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class StackImplementation {
     public static void main(String[] args) {
-        Stack<Integer> stack=new Stack<>();
+        Stack<Integer> stack = new Stack<>();
         stack.add(2);
         stack.push(4);
         stack.push(23);
@@ -15,6 +15,8 @@ public class StackImplementation {
         stack.remove(stack);
         stack.addElement(23);
         System.out.println(stack);
-    };
+    }
+
+    ;
 
 }
